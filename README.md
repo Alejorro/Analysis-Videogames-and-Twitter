@@ -23,7 +23,7 @@ _No se recomienda el uso del programa 'main_slower.py', debido a que para su uti
 _El resto de carpetas siguen la denominación estándar para el tipo de datos que poseen,y no requieren aclaraciones adicionales._
 
 
-## Uso de 'main.py' 🚀
+## Uso de 'main.py' 🔧
 
 
 
