@@ -150,6 +150,9 @@ def estructure_df(df4):
     return df5
 
 
+#Selector de apoyo en 'Main.py':
+
+
     
 
 
