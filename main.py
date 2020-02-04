@@ -40,7 +40,7 @@ if __name__ == "__main__":
         result = df2.loc[df2['Nombre'] == f'{args.Nombre}'].loc[df2['Empresa']== f'{args.Empresa}'].iloc[0::, 1::].head(args.Tamaño).reset_index()
 
     elif args.Nombre and args.Genero:
-        result = "Esta relación no tiene sentido"
+        raise Exception("Esta relación no tiene sentido")
 
     elif args.Empresa and args.Genero:
         result = df2.loc[df2['Empresa'] == f'{args.Empresa}'].loc[df2['Genero']== f'{args.Genero}'].iloc[0::, 1::].head(args.Tamaño).reset_index()
